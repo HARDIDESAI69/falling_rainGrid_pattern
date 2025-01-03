@@ -1,0 +1,20 @@
+.rain-grid {
+    display: grid;
+    gap: 2px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #222;
+    background-color: #111;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .grid-cell {
+    aspect-ratio: 1;
+    border: 1px solid #444;
+    background-color: #222;
+    border-radius: 2px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
